@@ -63,4 +63,4 @@ for (int turn = 1; turn <= 9; turn++)
 
 
 //Print winner Message
-rb.checkWinner(board);
+Console.WriteLine(rb.checkWinner(board));
