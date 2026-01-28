@@ -1,1 +1,2 @@
-﻿// Group 1-9 Jake Fuhriman, Anders Houghton, Merrick Morgan, Peter Young
+// See https://aka.ms/new-console-template for more information
+Console.WriteLine("Hello, World!");

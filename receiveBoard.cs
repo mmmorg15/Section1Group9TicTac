@@ -21,7 +21,6 @@ namespace Section1Group9TicTac
 
 
 
-
             // Check horizontal rows for winners
             if (gameboard[0] == "x" && gameboard[1] == "x" && gameboard[2] == "x")
             {
