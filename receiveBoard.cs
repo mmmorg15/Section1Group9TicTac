@@ -6,9 +6,12 @@ namespace Section1Group9TicTac
 {
     internal class receiveBoard
     {
+
+
+        // printBoard method
         public void printBoard(string[] gameboard)
         {
-
+            // Writes the board to the console
             Console.WriteLine($"{gameboard[0]} | {gameboard[1]} | {gameboard[2]}");
             Console.WriteLine("---------");
             Console.WriteLine($"{gameboard[3]} | {gameboard[4]} | {gameboard[5]}");
@@ -16,6 +19,7 @@ namespace Section1Group9TicTac
             Console.WriteLine($"{gameboard[6]} | {gameboard[7]} | {gameboard[8]}");
         }
 
+        // checkWinner method
         public string checkWinner(string[] gameboard)
         {
 
@@ -91,6 +95,7 @@ namespace Section1Group9TicTac
                 return ("3 in a row! O wins!");
             }
 
+            // Check to see if it is a stalemate. Each x or o adds to totalguesses and the game ends in a tie if 9 turns have been done
             int totalguesses = 0;
             for (int i = 0; i < 9; i++)
             {
